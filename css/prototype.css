@@ -36,24 +36,24 @@
 #section-right {
     height: 100vh;
     margin-top: -64px;
+    overflow: hidden;
 }
 
 #shift {
-    margin-left: -5em;
+    /* margin-left: -5vw; */
     padding-top: 25vh;
-    position: absolute;
-    left: 1;
+    position: relative;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 2.5vh;
     margin-bottom: 1.5em;
-    font-weight: 400;
+    font-weight: lighter;
     font-family: "Karla", Arial, sans-serif;
 }
 
 hr {
-    margin-left: 15rem;
+    margin-left: 25vw;
     border-top: 0.07rem solid black;
 }
 
@@ -62,7 +62,7 @@ h2 {
     margin: 0 0 1rem 0;
     line-height: 1.3;
     font-family: "Cinzel", Georgia, serif;
-    font-size: 4rem;
+    font-size: 7vh;
     font-weight: 500;
 }
 
@@ -75,6 +75,12 @@ a.waves-effect.waves-light.btn-large {
 #about {
     min-height: 40vh;
     margin: 4em 5em 2em 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #about {
+        display: none;
+    }
 }
 
 .box {
@@ -92,12 +98,13 @@ a.waves-effect.waves-light.btn-large {
 }
 
 #text_area h4 {
+    font-size: 5vh;
     color: rgb(240, 235, 236);
     font-family: 'Poiret One', cursive;
 }
 
 #text_area p, span {
-    font-size: 2.5rem;
+    font-size: 5vh;
     color: rgb(240, 235, 236);
     font-family: 'Kirang Haerang', cursive;
 }
