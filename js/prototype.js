@@ -5,14 +5,14 @@
 
 $(document).ready(function () {
   console.log('If you stay ready, you need not get ready');
-  var width = $(window).width();
-  console.log('jQuery says width = ', width);
+  // var width = $(window).width();
+  // console.log('jQuery says width = ', width);
 
   // Scroll Directives
   $(window).scroll(function (event) {
     var target = $('#shift');
     var distance = $(window).scrollTop();
-    console.log('distance: ', distance);
+    // console.log('distance: ', distance);
 
     // Slide Right
     if (distance < 800) {
@@ -20,12 +20,12 @@ $(document).ready(function () {
     }
 
     // Fade Out
-    if (distance > 950) {
+    if (distance > 1100) {
       $('#text_area').fadeOut(2000);
     }
 
     // Fade In
-    if (distance < 900) {
+    if (distance < 1080) {
       $('#text_area').fadeIn(2000);
     }
 
