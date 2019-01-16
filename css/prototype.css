@@ -57,6 +57,12 @@ hr {
     border-top: 0.07rem solid black;
 }
 
+@media only screen and (max-width: 992px) {
+    hr {
+        margin-left: 45vw;
+    }
+}
+
 h2 {
     color: rgba(0, 0, 0, 0.8);
     margin: 0 0 1rem 0;
