@@ -27,6 +27,7 @@
 #welcome {
     background-image: url(../img/wave.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     padding: 0px;
