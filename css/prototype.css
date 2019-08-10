@@ -99,6 +99,8 @@ a.waves-effect.waves-light.btn-large {
     margin: 2em;
     background-image: url(../img/ocean.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #text_area {
